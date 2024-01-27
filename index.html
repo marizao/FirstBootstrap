@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/2aa1917d1d.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Paraíso Pet</title>
+
+    <style>
+        * {
+            font-family: 'Outfit', sans-serif;
+
+        }
+
+        .navbar {
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar a {
+            color: aliceblue;
+        }
+
+        .navbar a:hover {
+            color: gray;
+        }
+
+        h1 {
+            padding-bottom: 1em;
+            padding-top: 1em;;
+        }
+    </style>
+
+</head>
+<header class="sticky-top">
+    <nav class="navbar  navbar-expand-lg bg-warning text-white">
+        <div class="container-fluid navbar-dark text-white " style="background-color: #ECB501;">
+            <a class="navbar-brand text-white" href="#"> <strong>Paraíso Pet</strong><img
+                    src="/Imagens/Design sem nome.png" width="30px" alt="desenho do cachorro"></a>
+            <ul class="nav nav-underline ">
+                <li class="nav-item">
+                    <a class="nav-link active text-white" aria-current="page" href="/index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#remedio">Remédio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#racao">Ração</a>
+                </li>
+                <li class="nav-item">
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+<body>
+    <main class="content">
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="/Imagens/Inserir um título (1).png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Imagens/2.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="/Imagens/3.png" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </main>
+    <div id="remedio" class="categoria">
+        <h1 class="text-center"> Remédios</h1>
+        <div class="grid text-center">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/Imagens/1557168386154.jpg" class="card-img-top" alt="ração Pedigree Adultos">
+    
+                        <div class="card-body">
+                            <h5 class="card-title">Vermífugo Chemital para Cães adultos 4 Comprimidos</h5>
+                            <p class="card-text">R$ 17,89</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/Imagens/7898053774435.jpg" class="card-img-top" alt="...">
+    
+                        <div class="card-body">
+                            <h5 class="card-title">NexGard Cachorro 3 Doses 25 kg à 50 kg
+                            </h5><br>
+                            <p class="card-text">R$ 228</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/Imagens/1e0743efae34e0ff977ba97d64887bdb.jpe" class="card-img-top" alt="ração Pedigree Pequenas">
+    
+                        <div class="card-body">
+                            <h5 class="card-title">Pomada Cicatrizante Vetnil Vetaglos para Animais 20g</h5><br><br>
+                            <p class="card-text">R$ 55,00</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+    </div>
+    <div id="racao" class="categoria" style="background-color: #ECB501;"?>
+        <h1 class="text-center text-white"> Rações</h1>
+        <div class="grid text-center">
+            <div class="row">
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/Imagens/1666882957839.jpg" class="card-img-top" alt="ração Pedigree Adultos">
+    
+                        <div class="card-body">
+                            <h5 class="card-title">Ração Pedigree Nutrição Essencial Carne para Cães Adultos</h5>
+                            <p class="card-text">10,1kg - R$ 140 </p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/Imagens/1694718827573.jpg" class="card-img-top" alt="...">
+    
+                        <div class="card-body">
+                            <h5 class="card-title">Ração Pedigree Carne e Vegetais Cães Adultos Raças Médias e Grandes
+                            </h5>
+                            <p class="card-text">10,1kg - R$ 165</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="card">
+                        <img src="/Imagens/1694793035811.jpg" class="card-img-top" alt="ração Pedigree Pequenas">
+    
+                        <div class="card-body">
+                            <h5 class="card-title">Ração Pedigree para Cães Adultos de Porte Pequeno e Mini Sabor Carne e Vegetais</h5>
+                            <p class="card-text">10,1kg - R$ 165</p>
+                            <a href="#" class="btn btn-primary">Comprar</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Previous">
+                      <span aria-hidden="true">&laquo;</span>
+                    </a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item"><a class="page-link" href="#">2</a></li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#" aria-label="Next">
+                      <span aria-hidden="true">&raquo;</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+    </div>
+    
+<footer class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+    
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+      </div>
+    </section>
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+            Nome da Loja
+            </h6>
+            <p>
+            Paraíso Pet
+            </p>
+          </div>
+   
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Produtos
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Remédio</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Ração</a>
+            </p>
+          </div>
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contato</h6>
+            <p><i class="fas fa-home me-3"></i> Rio de Janeiro, Rio de Janeiro, Brasil</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> (21) 99846-7788/
+            <br>(21) 2346-7788</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2024 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">Paraisopet.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+</body>
+
+</html>
